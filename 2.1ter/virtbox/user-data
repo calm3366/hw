@@ -1,0 +1,9 @@
+#cloud-config
+users:
+  - name: admin
+    #password: admin
+    groups: sudo
+    shell: /bin/bash
+    #sudo: 'ALL=(ALL) NOPASSWD:ALL'
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsIQqxxWKZGT3BnvmRyNi3Cvju8Gy9MuarNr7ozVgTaGmwLSQDdi2+IUexK+9vwTfVFCVsdQ8b6xnNk6URB1HU9RwHUmk3PwOCBzkbd5h0y3OwDVZmbmBCiFHpuwlG7XkJ6Fyf/7uajOTkQYtp6ONZnMLrb521VwXPcWTt7c6ER7IUBMHwjBf9lEGcWafY9fAwM4WnkgssBnb12KTXAjWs5DW1+CZd2Rhr875lglCyD2Dr396yLbPKuiXe0dhOW4304uqWzcP40fOdQg0qIK+NftXbs/3eL99A28fZXF0V636Te5o6o779Iezg1XAkz9I1XKoJyc1O2AMnb2aT1eLuycJINH8RZcRrvrDJKsO922/KGfw/qAeiObG/8ZyMx6fYJjqZNQ/QVDuw5U33o7ToMHQyY43cod464Cl0diteGZGJLKvg5yKWmeTfuODKtjXyjw4DNuIgbdc1a5CbFD+9TKK1Vx5+z4+ojfgXIRUChMna4ZaEsSVy3k9+oXPNtls= i.arihin@DZ-201-40M.local
