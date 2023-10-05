@@ -31,7 +31,7 @@ resource "yandex_compute_instance" "storageVM" {
 
   network_interface {
     subnet_id          = yandex_vpc_subnet.develop.id
-    nat                = true
+    #nat                = true
     security_group_ids = [yandex_vpc_security_group.example.id]
   }
 
