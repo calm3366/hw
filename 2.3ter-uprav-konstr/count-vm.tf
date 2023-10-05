@@ -20,7 +20,7 @@ resource "yandex_compute_instance" "webVM" {
 
   network_interface {
     subnet_id          = yandex_vpc_subnet.develop.id
-    nat                = true
+    #nat                = true
     security_group_ids = [yandex_vpc_security_group.example.id]
   }
 
@@ -33,4 +33,6 @@ resource "yandex_compute_instance" "webVM" {
   metadata = {
     ssh-keys = local.ssh-keys
   }
+
+  allow_stopping_for_update = true
 }

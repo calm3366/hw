@@ -29,4 +29,5 @@ resource "yandex_compute_instance" "db_VM" {
   metadata = {
     ssh-keys = local.ssh-keys
   }
+  allow_stopping_for_update = true
 }

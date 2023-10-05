@@ -44,4 +44,5 @@ resource "yandex_compute_instance" "storageVM" {
   metadata = {
     ssh-keys = local.ssh-keys
   }
+  allow_stopping_for_update = true
 }
