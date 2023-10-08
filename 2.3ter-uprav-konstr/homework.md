@@ -28,7 +28,7 @@
 ## Задание 6*
 [ansible.tf](ansible.tf) 
 
-[hosts.tftpl](ansible.tftpl) 
+[hosts.tftpl](hosts.tftpl) 
 
 ![!\[Alt text\](<img/!\[Alt text\](<img/Снимок экрана 2023-10-08 в 16.15.14.png>)>)](<img/Снимок экрана 2023-10-08 в 16.15.14.png>)
 
