@@ -15,8 +15,6 @@ resource "null_resource" "web_hosts_provision" {
 
   #Добавление ПРИВАТНОГО ssh ключа в ssh-agent
   provisioner "local-exec" {
-    #command = "echo ${local.file_ssh} | ssh-add -"
-    #command = "ssh-add ${local.file_ssh}"
     command = "cat ~/.ssh/id_rsa | ssh-add -"
   }
 
