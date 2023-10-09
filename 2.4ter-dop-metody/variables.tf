@@ -49,12 +49,12 @@ variable "vm_db_name" {
 }
 
 variable "username" {
-  type        = string
-  default     = "ubuntu"
+  type    = string
+  default = "ubuntu"
 }
 
 
 variable "file_ssh_public_key" {
-  type        = string
-  default     = "~/.ssh/id_rsa.pub"
+  type    = string
+  default = "~/.ssh/id_rsa.pub"
 }
