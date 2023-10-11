@@ -61,5 +61,5 @@ module "clust_mysql" {
   env = "PRESTABLE"
   name_DB = "test"
   user_name = "app"
-  user_pass = "mysql"
+  user_pass = "mysql-test"
 }
