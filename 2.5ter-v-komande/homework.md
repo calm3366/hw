@@ -24,14 +24,24 @@ Check: CKV_TF_1: "Ensure Terraform module sources use a commit hash"
 ![!\[Alt text\](<img/!\[Alt text\](<img/Снимок экрана 2023-10-16 в 12.47.10.png>)>)](<img/Снимок экрана 2023-10-16 в 12.47.10.png>)
 ![!\[Alt text\](<img/!\[Alt text\](<img/Снимок экрана 2023-10-16 в 12.47.22.png>)>)](<img/Снимок экрана 2023-10-16 в 12.47.22.png>)
 ![!\[Alt text\](<img/!\[Alt text\](<img/Снимок экрана 2023-10-16 в 12.48.32.png>)>)](<img/Снимок экрана 2023-10-16 в 12.48.32.png>)
+![!\[Alt text\](<img/!\[Alt text\](<img/Снимок экрана 2023-10-16 в 12.48.32.png>)>)](<img/Снимок экрана 2023-10-16 в 15.25.03.png>)
 ![!\[Alt text\](<img/!\[Alt text\](<img/Снимок экрана 2023-10-16 в 15.07.38.png>)>)](<img/Снимок экрана 2023-10-16 в 15.07.38.png>)
 ![!\[Alt text\](<img/!\[Alt text\](<img/Снимок экрана 2023-10-16 в 15.07.59.png>)>)](<img/Снимок экрана 2023-10-16 в 15.07.59.png>)
+https://github.com/calm3366/hw/network
+## Задание 3
+![!\[Alt text\](<img/!\[Alt text\](<img/Снимок экрана 2023-10-16 в 15.34.32.png>)>)](<img/Снимок экрана 2023-10-16 в 15.34.32.png>)
+![!\[Alt text\](<img/!\[Alt text\](<img/Снимок экрана 2023-10-16 в 15.58.42.png>)>)](<img/Снимок экрана 2023-10-16 в 15.58.42.png>)
+```
+main.tf:21:1: Warning - Missing version constraint for provider "template" in `required_providers` (terraform_required_providers)
+```
 
+по поводу этого не понял, что за версия ему нужна
 
+![!\[Alt text\](<img/!\[Alt text\](<img/Снимок экрана 2023-10-16 в 16.26.15.png>)>)](<img/Снимок экрана 2023-10-16 в 16.26.15.png>)
+16.26.15
 
+[2state/main.tf](2state/main.tf) 
 
+[2state/providers.tf](2state/providers.tf) 
 
-
-[cloud-init.yml](cloud-init.yml) 
-
-
+[2state/variables.tf](2state/variables.tf) 

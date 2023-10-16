@@ -1,5 +1,5 @@
 module "test-vm" {
-  source       = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=main"
+  source       = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=95c286e0062805d5ba5edb866f387247bc1bbd44"
   subnet_zones = module.vpc_prod.vpc_zone
 
   env_name   = module.vpc_prod.name_vpc_net
