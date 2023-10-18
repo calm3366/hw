@@ -38,10 +38,25 @@ main.tf:21:1: Warning - Missing version constraint for provider "template" in `r
 по поводу этого не понял, что за версия ему нужна
 
 ![!\[Alt text\](<img/!\[Alt text\](<img/Снимок экрана 2023-10-16 в 16.26.15.png>)>)](<img/Снимок экрана 2023-10-16 в 16.26.15.png>)
-16.26.15
+![!\[Alt text\](<img/!\[Alt text\](<img/Снимок экрана 2023-10-16 в 17.12.29.png>)>)](<img/Снимок экрана 2023-10-16 в 17.12.29.png>)
+
 
 [2state/main.tf](2state/main.tf) 
 
 [2state/providers.tf](2state/providers.tf) 
 
 [2state/variables.tf](2state/variables.tf) 
+
+**pull request**
+https://github.com/calm3366/hw/pull/2
+## Задание 4
+![!\[Alt text\](<img/!\[Alt text\](<img/Снимок экрана 2023-10-16 в 23.24.16.png>)>)](<img/Снимок экрана 2023-10-16 в 23.24.16.png>)
+![!\[Alt text\](<img/!\[Alt text\](<img/Снимок экрана 2023-10-16 в 23.25.49.png>)>)](<img/Снимок экрана 2023-10-16 в 23.25.49.png>)
+[2state/variables.tf](2state/variables.tf) 
+## Задание 5*
+[2state/variables.tf](2state/variables.tf) 
+![!\[Alt text\](<img/!\[Alt text\](<img/Снимок экрана 2023-10-17 в 11.45.45.png>)>)](<img/Снимок экрана 2023-10-17 в 11.45.45.png>)
+![!\[Alt text\](<img/!\[Alt text\](<img/Снимок экрана 2023-10-17 в 11.47.19.png>)>)](<img/Снимок экрана 2023-10-17 в 11.47.19.png>)
+![!\[Alt text\](<img/!\[Alt text\](<img/Снимок экрана 2023-10-17 в 11.47.27.png>)>)](<img/Снимок экрана 2023-10-17 в 11.47.27.png>)
+
+
