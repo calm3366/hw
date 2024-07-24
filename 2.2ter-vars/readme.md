@@ -1,3 +1,5 @@
+Ссылка на домашнее задание - [github](https://github.com/netology-code/ter-homeworks/blob/main/02/hw-02.md)
+
 ## Задание 1
 ##### Ошибка в названии платформы для CPU - выбрал standard-v1
 ##### preemptible = true (прерываемость ВМ: пригодится для меньшего потребления бюджета YC)
